@@ -1,0 +1,316 @@
+* {
+       box-sizing: border-box;
+       margin: 0px;
+       padding: 0px;
+}
+
+.topbar {
+       width: 100%;
+       height: 50px;
+       background-color: navy;
+       overflow: hidden;
+       
+}
+
+.topmenu {
+       display: flex;
+    list-style-type: none;
+
+
+}
+.topmenu li{
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 32px;
+  display: inline-block;
+}
+.topmenu li a{
+  color: white;
+  padding: 0 13px;
+  text-decoration: none;
+}
+.topmenu li a:hover{
+  text-decoration: underline;
+}
+
+.topicon {
+       color: white;
+       padding:10px 15px;
+       display: flex;
+       
+       text-align: end;
+       justify-content: space-between;
+       
+
+}
+
+.topimg {
+       text-align: right;
+}
+
+.bannertop {
+       height: 65px;
+       width: 100%;
+       background-color: black;
+}
+
+.dropbtn {
+       background-color: #4CAF50;
+       color: white;
+       padding: 16px;
+       font-size: 16px;
+       border: none;
+       cursor: pointer;
+     }
+     
+     .dropdown {
+       position: relative;
+       display: inline-block;
+     }
+     
+     .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+     }
+     
+     .dropdown-content a {
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+     }
+     
+     .dropdown-content a:hover {background-color: #f1f1f1}
+     
+     .dropdown:hover .dropdown-content {
+       display: block;
+     }
+     
+     .dropdown:hover .dropbtn {
+       background-color: #3e8e41;
+     }
+     
+
+
+
+     .carousel-container {
+      width: 600px;
+      height: 400px;
+      position: relative;
+      margin: 0 auto;
+    
+    }
+    
+    .navigation-buttons .previous {
+      position: absolute;
+      z-index: 10;
+      font-size: 25px;
+      top: 40%;
+      left: 10px;
+      font-weight: 700;
+    }
+    
+    .navigation-buttons .next {
+      right: 10px;
+      position: absolute;
+      font-size: 25px;
+      z-index: 10;
+      top: 40%;
+    }
+    
+    .navigation-buttons .nav-btn {
+      background: rgba(255, 255, 255, 0.55);
+      cursor: pointer;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    }
+    
+    .navigation .nav-btn:hover {
+      background: white;
+    }
+    
+    .slider-carousel {
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    
+    }
+    .slider-carousel img {
+      width: 100%;
+      transition: all 0.3s ease;
+      border:8px solid white;
+    }
+    
+    .images {
+      position: absolute;
+      display: none;
+    }
+    
+    .main {
+      display: block;
+    }
+    
+    .image-text {
+      position: absolute;
+      bottom: 0;
+      width: 103%;
+      display: flex;
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      background: rgba(0, 0, 0, 0.3);
+      height: 35px;
+    }
+    .backimg{
+      background: url(/IEEE/image/im2.jpg);
+      width: 100%;
+      height: 550px;
+      background-size: cover;
+    }
+    .gap{
+      padding: 90px;
+      justify-content: space-between;
+    }
+
+    .border{
+      border-radius: 30px;
+      background-color: #0000ff4f;
+      height: 400px;
+      width: 331px;
+
+    }
+    .btn:hover{
+      background-color:red;
+    }
+    .border1{
+
+      border-radius: 30px;
+      background-color:#0080007d;;
+      height: 400px;
+      width: 331px;
+    }
+    .border2{
+
+      border-radius: 30px;
+      background-color:#8080808f;
+      height: 400px;
+      width: 331px;
+    }
+    .section2{
+      background: url(/IEEE/image/img5.jpg);
+      /* background: url(/image/im6.png);*/
+      background-size: cover; 
+      width: 500px;
+      height: 300px;
+      border-radius: 50px;
+      padding: 30px;
+      margin-right: 79px;
+
+
+    }
+    .sec{
+      background: url(/IEEE/image/im6.png);
+      background-size: cover; 
+      width: 500px;
+      height: 300px;
+      border-radius: 50px;
+      
+    }
+    .b{
+      transform: scale(1);
+      transition: transform 1s;
+  }
+  .b:hover{
+      transform: scale(1.5);
+  }
+    .bottom{
+      background-color: #4CAF50;
+      height: 514px
+    }
+    .bottom h3,h6{
+      color: white
+    }
+    .bottombar{
+      background-color: #9e9ea7;
+      width: 100%;
+      height: 60px;
+    }
+    .bottombar a{
+      font-size: 20px;
+      color: white;
+    }
+    .bottombar a:hover{
+      color: black;
+      text-decoration: underline;
+    }
+      .text {
+        padding: 2px 3px;
+      }
+      /*footer strat*/
+  footer{
+    background-color:#000000c2;
+    background-size: cover;
+  
+  }
+
+
+  section{
+    background-color: black;
+  }
+  .para{
+    height: 40px;
+  }
+  .para li{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 32px;
+    display: inline-block;
+}
+  .para li a{
+    padding: 0 13px;
+    color: white;
+    text-decoration: none;
+}
+.para li a:hover{
+  text-decoration: underline;
+}
+.link{
+  height: 50px;
+
+}
+.link li{
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 32px;
+  display: inline-block;
+}
+.link li a{
+  color: #069;
+  padding: 0 13px;
+  text-decoration: none;
+}
+.link li a:hover{
+  text-decoration: underline;
+}
+
+.c .box1{
+  box-shadow: 0 1rem 2rem rgba(0.0,0,0.1);
+}
+.r{
+  border: gold;
+}
+
+
+
+
+
